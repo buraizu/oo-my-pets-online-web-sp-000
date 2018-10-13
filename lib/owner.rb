@@ -9,7 +9,12 @@ class Owner
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
+
+  def self.reset_all
+    @@all.length
+  end
+  
 end
