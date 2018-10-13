@@ -66,7 +66,7 @@ class Owner
     @pets.each do|key, value|
       value.each do|pet|
         pet.mood = "nervous"
-        puts pet
+        puts pet.mood
         binding.pry
       end
     end
