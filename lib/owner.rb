@@ -65,8 +65,7 @@ class Owner
   def sell_pets
     @pets.each do|key, value|
       value.each do|pet|
-        puts pet
-        binding.pry
+        pet.mood = "nervous"
       end
     end
   end
