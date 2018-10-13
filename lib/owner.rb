@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
 
   attr_reader :species
@@ -59,5 +61,10 @@ class Owner
       fish.mood = "happy"
     end
   end
+
+  def sell_pets
+    @pets.each do|key, value|
+      puts key
+      binding.pry
 
 end
