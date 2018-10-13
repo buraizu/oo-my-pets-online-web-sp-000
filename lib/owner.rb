@@ -66,11 +66,11 @@ class Owner
     @pets.each do|key, value|
       value.each do|pet|
         pet.mood = "nervous"
-        @pets[:cats] = []
-        @pets[:dogs] = []
-        @pets[:fishes] = []
       end
     end
+    @pets[:cats] = []
+    @pets[:dogs] = []
+    @pets[:fishes] = []
   end
 
 end
