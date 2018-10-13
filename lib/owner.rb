@@ -66,5 +66,6 @@ class Owner
     @pets.each do|key, value|
       puts key
       binding.pry
+    end
 
 end
