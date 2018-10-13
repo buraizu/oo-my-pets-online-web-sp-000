@@ -27,8 +27,8 @@ class Owner
     "I am a #{@species}."
   end
 
-  def buy_fish
-    fish = Fish.new
+  def buy_fish(name)
+    fish = Fish.new(name)
   end
-  
+
 end
